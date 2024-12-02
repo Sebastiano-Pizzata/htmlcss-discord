@@ -3,6 +3,7 @@
     --color-2: #F6F6F6;
     --color-3: #23272A;
     --color-4: #58443F;
+    --color-5: #7289DA;
 }
 
 
@@ -10,7 +11,7 @@ header{
      
     background-color: var(--color-1);
     /* height: 400px; */
-    padding-block: 15px;
+    padding-block: 50px;
     /* background-image: url("../img/img-3/jumbo.png"); */
 }
 .flex{
@@ -38,7 +39,7 @@ header{
 
 }
 .container-80{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -48,11 +49,14 @@ header{
 .flex-basis-60{
     flex-basis: 60%;
     /* height: 60px; */
+
 }
 
 .flex-basis-40{
     flex-basis: 40%;
     /* height: 60px; */
+    
+    
 }
 .color-grey{
     background-color: var(--color-2);
@@ -65,6 +69,7 @@ footer .flex div{
     flex-basis: calc(100% /5);
     /* height: 50px; */
     background-color: var(--color-3);
+    
 }
 footer .flex div:first-child{
     flex-basis: 25%;
@@ -131,7 +136,32 @@ h1{
      background-color: var(--color-3);
 }
 
+.h2-1{
+    font-size: 15px;
+    padding-block: 2px;
+}
+h2{
+    font-size: 22px;
+    padding-block: 40px;
+}
 
-/* header{
-    background-image: url(../img/img-3/jumbo.png);
-} */
+h4{
+    text-align: center;
+    padding-block: 15px;
+    background-image: url(../img/img-3/stars.svg);
+}
+
+.mac-2{
+    border-radius: 30px;
+     margin-left: 15px;
+     background-color: var(--color-5);
+     height: 30px;
+}
+
+.mac{
+    background-color: var(--color-5);
+    border-radius: 30px;
+     margin-left: 350px;
+     width: 150px;
+     height: 30px;
+    }
