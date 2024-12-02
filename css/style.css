@@ -1,0 +1,137 @@
+:root{
+    --color-1: #224295;
+    --color-2: #F6F6F6;
+    --color-3: #23272A;
+    --color-4: #58443F;
+}
+
+
+header{
+     
+    background-color: var(--color-1);
+    /* height: 400px; */
+    padding-block: 15px;
+    /* background-image: url("../img/img-3/jumbo.png"); */
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.logo,
+.menu,
+.accedi{
+    /* height: 50px; */
+    /* width: 50px; */
+   
+}
+.text-1{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    /* height: 100px; */
+    margin-top: 20px;
+
+
+
+}
+.container-80{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* main section{
+    height: 80px;
+} */
+.flex-basis-60{
+    flex-basis: 60%;
+    /* height: 60px; */
+}
+
+.flex-basis-40{
+    flex-basis: 40%;
+    /* height: 60px; */
+}
+.color-grey{
+    background-color: var(--color-2);
+}
+
+main section:last-child > div{
+    flex-direction: column;
+}
+footer .flex div{
+    flex-basis: calc(100% /5);
+    /* height: 50px; */
+    background-color: var(--color-3);
+}
+footer .flex div:first-child{
+    flex-basis: 25%;
+}
+footer{
+    background-color: var(--color-3);
+}
+
+.accedi{
+    border-radius: 25px;
+    font-size: 10px;
+    color: var(--color-4);
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.logo{
+    float: left;
+    
+}
+
+ul{
+    list-style: none;
+    }
+
+nav li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h1{
+    color: var(--color-2);
+    padding-block: 15px;
+}
+
+.text-1{
+    padding:10px;
+}
+
+.text-2{
+    font-size: 16px;
+    color: var(--color-2);
+    padding-block: 10px;
+}
+
+.Mac{
+    border-radius: 30px;
+     margin-left: 15px;
+     width: 150px;
+     height: 30px;
+}
+
+.browser{
+    border-radius: 30px;
+     margin-left: 15px;
+     width: 200px;
+     height: 30px;
+     color: var(--color-2);
+     background-color: var(--color-3);
+}
+
+
+/* header{
+    background-image: url(../img/img-3/jumbo.png);
+} */
