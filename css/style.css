@@ -4,6 +4,7 @@
     --color-3: #23272A;
     --color-4: #58443F;
     --color-5: #7289DA;
+    
 }
 
 
@@ -11,8 +12,8 @@ header{
      
     background-color: var(--color-1);
     /* height: 400px; */
-    padding-block: 50px;
-    /* background-image: url("../img/img-3/jumbo.png"); */
+    padding-bottom: 50px;
+    
 }
 .flex{
     display: flex;
@@ -43,9 +44,10 @@ header{
     margin: 0 auto;
 }
 
-/* main section{
-    height: 80px;
-} */
+main section{
+    /* height: 80px; */
+    
+}
 .flex-basis-60{
     flex-basis: 60%;
     /* height: 60px; */
@@ -76,6 +78,7 @@ footer .flex div:first-child{
 }
 footer{
     background-color: var(--color-3);
+    
 }
 
 .accedi{
@@ -165,3 +168,34 @@ h4{
      width: 150px;
      height: 30px;
     }
+
+h3{
+    margin-top: 30px;
+    color: var(--color-5);
+    margin-bottom: 15px;
+}
+
+li{
+    list-style: none;
+    color: var(--color-2);
+    margin-top: 15px;
+    font-size: 12px;
+    
+}
+
+.blue{
+    color: var(--color-5);
+}
+
+.pad{
+    padding-block: 40px;
+}
+
+.flex-logo-2{
+    
+}
+
+figure span{
+    color: var(--color-2);
+    font-size: 12px;
+}
