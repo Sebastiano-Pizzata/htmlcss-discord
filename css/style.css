@@ -13,7 +13,10 @@ header{
     background-color: var(--color-1);
     /* height: 400px; */
     padding-bottom: 50px;
-    
+    background-image: url(../img/img-3/jumbo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .flex{
     display: flex;
@@ -22,44 +25,31 @@ header{
 
 
 
-.logo,
-.menu,
-.accedi{
-    /* height: 50px; */
-    /* width: 50px; */
-   
-}
 .text-1{
     text-align: center;
     width: 60%;
     margin: 0 auto;
-    /* height: 100px; */
     margin-top: 20px;
 
 
 
 }
 .container-80{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
-main section{
-    /* height: 80px; */
+
     
-}
+
 .flex-basis-60{
     flex-basis: 60%;
-    /* height: 60px; */
-
 }
 
 .flex-basis-40{
-    flex-basis: 40%;
-    /* height: 60px; */
-    
-    
+    flex-basis: 40%;   
 }
+
 .color-grey{
     background-color: var(--color-2);
 }
@@ -67,6 +57,12 @@ main section{
 main section:last-child > div{
     flex-direction: column;
 }
+
+main section:last-child{
+    text-align: center;
+}
+
+
 footer .flex div{
     flex-basis: calc(100% /5);
     /* height: 50px; */
@@ -87,6 +83,7 @@ footer{
     color: var(--color-4);
     margin-bottom: 10px;
     width: 50px;
+    border: none;
 }
 
 .logo{
@@ -101,6 +98,7 @@ ul{
 nav li{
     display: inline-block;
     margin-left: 20px;
+    text-align: center;
 }
 
 a{
@@ -128,6 +126,7 @@ h1{
      margin-left: 15px;
      width: 150px;
      height: 30px;
+     border: none;
 }
 
 .browser{
@@ -137,6 +136,7 @@ h1{
      height: 30px;
      color: var(--color-2);
      background-color: var(--color-3);
+     border: none;
 }
 
 .h2-1{
@@ -150,23 +150,21 @@ h2{
 
 h4{
     text-align: center;
-    padding-block: 15px;
+    padding: 15px;
     background-image: url(../img/img-3/stars.svg);
+    background-size: contain;
+    width: 50%;
+    margin: 0 auto;
+    background-repeat: no-repeat;
 }
 
-.mac-2{
-    border-radius: 30px;
-     margin-left: 15px;
-     background-color: var(--color-5);
-     height: 30px;
-}
 
 .mac{
     background-color: var(--color-5);
     border-radius: 30px;
-     margin-left: 350px;
      width: 150px;
      height: 30px;
+     border: none;
     }
 
 h3{
@@ -191,9 +189,7 @@ li{
     padding-block: 40px;
 }
 
-.flex-logo-2{
-    
-}
+
 
 figure span{
     color: var(--color-2);
