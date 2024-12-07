@@ -195,3 +195,8 @@ figure span{
     color: var(--color-2);
     font-size: 12px;
 }
+
+.footer__bottom{
+    padding: 20px;
+}
+
